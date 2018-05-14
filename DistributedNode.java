@@ -44,7 +44,7 @@ public class DistributedNode {
 		BufferedReader receive;
 
 		Scanner s = new Scanner(new File(
-				"/home/010/a/ax/axb160631/TestProj/config.txt"));
+					"config.txt"));
 		line = s.nextLine();
 		
 		// To skip invalid lines and comments
